@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Your Name</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="port.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <div class="nav__content">
+          <div class="logo"><a href="#">Portfolio</a></div>
+          <label for="check" class="checkbox">
+            <i class="ri-menu-line"></i>
+          </label>
+          <input type="checkbox" name="check" id="check" />
+          <ul>
+            <li><a href="Port.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="resume.html">Resume</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="contactpage.html">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    <header>
+        <div class="container">
+            <h1>--------------</h1>
+            
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <section id="featured-projects">
+                <h2>Featured Projects</h2>
+                <div class="project-grid">
+                    <div class="project">
+                        <img src="eventwebpagemin.png" alt="Project 1 Screenshot">
+                        <div class="project-info">
+                            <h3>Event Page</h3>
+                            <p><strong>Description:</strong> Briefly describe the project, the problem it solved, and any unique features.</p>
+                            <p><strong>Technologies Used:</strong> HTML, CSS, JavaScript, React</p>
+                            <a href="Fp1/event.html" class="project-link">View Project</a>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <img src="fb-copy.webp" alt="Project 2 Screenshot">
+                        <div class="project-info">
+                            <h3>FB Home Page Clone</h3>
+                            <p><strong>Description:</strong> A short overview of the project, its goals, and the solutions implemented.</p>
+                            <p><strong>Technologies Used:</strong> Node.js, Express, MongoDB</p>
+                            <a href="FBClone/FBClone.html" class="project-link">View Project</a>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <img src="iui.png" alt="Project 1 Screenshot">
+                        <div class="project-info">
+                            <h3>Food Delivery</h3>
+                            <p><strong>Description:</strong> Briefly describe the project, the problem it solved, and any unique features.</p>
+                            <p><strong>Technologies Used:</strong> HTML, CSS, JavaScript, React</p>
+                            <a href="food/Food.html" class="project-link">View Project</a>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <img src="Screenshot LOGIN.png" alt="Project 2 Screenshot">
+                        <div class="project-info">
+                            <h3>Login Form</h3>
+                            <p><strong>Description:</strong> A short overview of the project, its goals, and the solutions implemented.</p>
+                            <p><strong>Technologies Used:</strong> Node.js, Express, MongoDB</p>
+                            <a href="LoginForm/Login3D.html" class="project-link">View Project</a>
+                        </div>
+                    </div>
+                    
+                </div>
+            </section>
+            <section id="additional-projects">
+                <h2>Additional Projects</h2>
+                <ul>
+                    <li><strong>Project Name:</strong> A brief description of the project and the role you played. <a href="#">View Project</a></li>
+                    <li><strong>Project Name:</strong> Brief overview and technologies used. <a href="#">View Project</a></li>
+                </ul>
+            </section>
+            <section id="skills">
+                <h2>Skills & Technologies</h2>
+                <ul>
+                    <li><strong>Languages:</strong> HTML, CSS, JavaScript, TypeScript</li>
+                    <li><strong>Frameworks/Libraries:</strong> React, Angular, Vue.js, Node.js</li>
+                    <li><strong>Tools:</strong> Git, Webpack, Docker</li>
+                    <li><strong>Databases:</strong> MongoDB, MySQL, Firebase</li>
+                </ul>
+            </section>
+            
+        </div>
+    </main>
+    <script>
+        var prevScrollpos = window.pageYOffset;
+window.onscroll = function () {
+    var currentScrollPos = window.pageYOffset;
+    if (prevScrollpos > currentScrollPos) {
+        document.getElementById("navbar").style.top = "0";
+    } else {
+        document.getElementById("navbar").style.top = "-50px";
+    }
+    prevScrollpos = currentScrollPos;
+};
+
+    </script>
+</body>
+</html>

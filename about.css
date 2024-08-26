@@ -1,0 +1,79 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General styles */
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    background-color: #f4f4f4;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+header h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.5em;
+}
+
+main {
+    padding: 2em;
+}
+
+.about-section {
+    max-width: 800px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 2em;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about-content h2 {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    margin-bottom: 0.5em;
+}
+
+.about-content p {
+    margin-bottom: 1em;
+}
+
+.skills, .experience {
+    margin-top: 2em;
+}
+
+.skills h3, .experience h3 {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    margin-bottom: 0.5em;
+}
+
+.skills ul {
+    list-style:none;
+}
+
+.skills li {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 0.5em;
+    padding: 0.75em;
+}
+
+footer {
+    text-align: center;
+    padding: 1em 0;
+    background-color: #333;
+    color: #fff;
+    font-size: 0.9em;
+}
