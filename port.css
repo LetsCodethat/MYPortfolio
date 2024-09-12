@@ -151,12 +151,12 @@ ul li a:hover {
   cursor: pointer;
 }
 
-.hire__me {
+#hireMeBtn {
   background-color: var(--primary-color);
   color: #ffffff;
 }
 
-.hire__me:hover {
+#hireMeBtn:hover {
   background-color: var(--primary-color-dark);
 }
 
